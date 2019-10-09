@@ -19,7 +19,11 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "utils",
+    "index.js"
+  ],
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish --access-scope=public"
+    "postversion": "git push && git push --tags && npm publish --access=public --registry=https://registry.npmjs.org/"
   }
 }
