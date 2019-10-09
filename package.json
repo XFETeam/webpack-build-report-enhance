@@ -1,0 +1,25 @@
+{
+  "name": "@xfe-team/webpack-build-report-enhance",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ailun She",
+    "email": "529360897@qq.com"
+  },
+  "dependencies": {
+    "colors": "1.1.2",
+    "dayjs": "1.5.24"
+  },
+  "homepage": "https://github.com/XFETeam/webpack-build-report-enhance.git",
+  "description": "Build a report file after a Webpack build",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "report",
+    "markdown"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access-scope=public"
+  }
+}
