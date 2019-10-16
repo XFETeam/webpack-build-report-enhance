@@ -71,5 +71,16 @@ Loader.js | 6.07 kB | -21.12 kB
 Modal.js | 15.93 kB | -
 PhoneLoader.js | 16.66 kB | -4.00 kB
 
+## ChangeLog
+
+## 0.0.2 (2019/10/16)
+
+* fix: 修复 utils/report.js 中 LLL 在 dayjs 不生效导致生成的 report 展示错误 Date "LLL" 字符串的问题
+
+## 0.0.1
+
+* init commit
+
+
 ## Author
 She Ailun

@@ -1,6 +1,6 @@
 {
   "name": "@xfe-team/webpack-build-report-enhance",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Ailun She",
     "email": "529360897@qq.com"
@@ -10,6 +10,7 @@
     "dayjs": "1.5.24"
   },
   "homepage": "https://github.com/XFETeam/webpack-build-report-enhance.git",
+  "git": "https://github.com/XFETeam/webpack-build-report-enhance.git",
   "description": "Build a report file after a Webpack build",
   "keywords": [
     "webpack",

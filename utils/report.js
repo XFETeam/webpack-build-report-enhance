@@ -26,7 +26,7 @@ function save(report, mode, output, callback) {
 
 function buildGenericInfo(stats) {
   let info = '';
-  info += `- Date: **${moment().format('LLL')}**\n`;
+  info += `- Date: **${moment().format()}**\n`;
   info += `- Time: **${stats.time}**ms\n`;
   info += `- Hash: **${stats.hash}**\n`;
   info += `- Version: webpack **${stats.version}**\n\n`;
